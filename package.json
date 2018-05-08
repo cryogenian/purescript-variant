@@ -2,14 +2,12 @@
   "private": true,
   "scripts": {
     "build": "pulp build -- --censor-lib --strict",
+    "ide": "purs ide server",
     "test": "pulp test"
   },
   "devDependencies": {
-    "pulp": "^11.0.0",
-    "purescript": "^0.11.4",
-    "purescript-psa": "^0.5.0"
-  },
-  "dependencies": {
-    "canvas-prebuilt": "^1.6.5-prerelease.1"
+    "pulp": "^12.0.1",
+    "purescript": "github:cryogenian/node-purescript-bin#master",
+    "purescript-psa": "^0.6.0"
   }
 }
